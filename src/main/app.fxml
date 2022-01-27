@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import io.github.palexdev.materialfx.controls.MFXButton?>
+<?import io.github.palexdev.materialfx.controls.MFXSlider?>
+<?import javafx.scene.Scene?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<Scene xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+    <AnchorPane prefHeight="602.0" prefWidth="1090.0" stylesheets="@style.css">
+      <children>
+         <MFXSlider layoutX="166.0" layoutY="281.0" />
+         <MFXButton layoutX="166.0" layoutY="423.0" />
+      </children>
+   </AnchorPane>
+</Scene>

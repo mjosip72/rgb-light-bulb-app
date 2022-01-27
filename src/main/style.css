@@ -1,0 +1,122 @@
+
+.root {
+
+	-fx-theme-accent: #007E59;
+    -fx-theme-background: #1E1E1E;
+	-fx-theme-background-alt: #333333;
+	-fx-theme-background-alt2: #272727;
+	-fx-theme-foreground: white;
+    -fx-theme-dark: rgba(0, 0, 0, 0.4);
+
+    -fx-accent: -fx-theme-accent;
+    -fx-background: -fx-theme-background;
+    -fx-text-fill: -fx-theme-foreground;
+    -fx-highlight-fill: -fx-theme-accent;
+    -fx-mark-color: -fx-theme-accent;
+
+    -fx-font-family: Roboto;
+    -fx-font-size: 16;
+
+}
+
+.bg {
+    -fx-background-color: -fx-theme-background;
+}
+
+.bg-alt {
+    -fx-background-color: -fx-theme-background-alt;
+}
+
+.bg-dark {
+    -fx-background-color: -fx-theme-dark;
+}
+
+.mfx-button {
+    -fx-background-color: -fx-theme-accent;
+    -fx-text-fill: -fx-theme-foreground;
+}
+
+.mfx-text-field {
+    -fx-text-fill: -fx-theme-foreground;
+}
+
+.img-snap-name-pane {
+    -fx-background-color: -fx-theme-dark;
+}
+
+.icon-arrow {
+    -fx-icon-color: -fx-theme-foreground;
+    -fx-icon-size: 26;
+}
+
+
+
+
+
+.btn-delete {
+    -fx-background-color: transparent;
+}
+
+.btn-delete:hover {
+    -fx-background-color: -fx-theme-dark;
+}
+
+.btn-delete FontIcon {
+    -fx-icon-color: -fx-theme-foreground;
+    -fx-icon-size: 22;
+}
+
+
+
+.btn-icon {
+    -fx-background-color: transparent;
+    -fx-pref-width: 36;
+    -fx-pref-height: 36;
+}
+
+.btn-icon:hover {
+    -fx-background-color: -fx-theme-dark;
+}
+
+.btn-icon FontIcon {
+    -fx-icon-size: 22;
+    -fx-icon-color: -fx-theme-foreground;
+}
+
+.btn-close {
+    -fx-background-color: transparent;
+    -fx-pref-width: 36;
+    -fx-pref-height: 36;
+}
+
+.btn-close FontIcon {
+    -fx-icon-size: 32;
+    -fx-icon-color: -fx-theme-foreground;
+}
+
+
+
+
+.selected-snap {
+        -fx-border-color: -fx-theme-accent;
+        -fx-border-style: solid;
+        -fx-border-width: 12;
+}
+
+
+
+.dialog-title {
+    -fx-fill: -fx-theme-foreground;
+    -fx-font-size: 22;
+}
+
+.dialog-text {
+    -fx-fill: -fx-theme-foreground;
+    -fx-font-size: 16;
+}
+
+.dialog-text-field {
+    -mfx-line-color: -fx-theme-accent;
+    -fx-font-size: 16;
+}
+
